@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+h1{
+    color: #fff;
+}
+input{
+    background-color: beige;
+    margin-right: 20px;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+.add-btn{
+    font-size: 1.5rem;
+    border-color: #fff;
+    background-image: linear-gradient(180deg, rgb(168, 151, 151), yellow);
+}
+.add-btn:hover{
+    border-color: red;
+    background-image: linear-gradient(180deg, rgb(247, 217, 118), rgb(36, 36, 6));
+}
+
+ol{
+    padding-left:45%;
+    text-align: left;
+}
+
+li{
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: monospace;
+    
+}
+.dlt-btn{
+    margin-left: 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(185, 75, 75);
+    padding: 5px;
+}
+.dlt-btn:hover{
+   background-color: red; 
+   border-width: 2px;
+   border-color: #fff;
+}
